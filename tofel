@@ -20,5 +20,4 @@ pragma solidity >=0.8.0;
         require(balance[msg.sender] >= _amt);
         balance[msg.sender] -= _amt;
         balance[_to] += _amt;
-    }
-}
+    
